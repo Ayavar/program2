@@ -1,0 +1,13 @@
+<!-- Ant file to build the WebServer -->
+
+<project name = "WebServer" default = "compile" basedir = ".">
+
+
+
+    <target name = "compile" >
+        <javac srcdir = "." destdir = "." includeantruntime = "false">
+        <include name = "*.java"/>
+        </javac>
+
+    </target>
+</project>
